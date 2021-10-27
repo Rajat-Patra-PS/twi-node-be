@@ -44,7 +44,7 @@ const data = {
     ]
 }
 app.get('/', (req, res) => {
-    res.status(200).send("Welcome to the app...")
+    res.status(200).send("Welcome to the application...")
 })
 app.get('/api/getWebsites/', (req, res) => {
     let selectedDate = req.query.sDate;
